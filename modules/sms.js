@@ -22,7 +22,7 @@ async function smsBOOM(numara, miktar) {
                 "last_name": faker.name.lastName(),
                 "email": faker.internet.email(),
                 "phone": "0"+no,
-                "password": "TheDarkRoot00",
+                "password": "nwejkfıower32",
                 "confirm": "true",
                 "kvkk": "true",
                 "next": ""
@@ -65,7 +65,7 @@ async function smsBOOM(numara, miktar) {
                 "email": faker.internet.email(),
                 "first_name": faker.name.firstName(),
                 "last_name": faker.name.lastName(),
-                "password": "TheDarkRoot00",
+                "password": "nwejkfıower32",
                 "date_of_birth": "1999-01-01",
                 "phone": "0"+no,
                 "gender": "male",
@@ -96,7 +96,7 @@ async function smsBOOM(numara, miktar) {
                 "first_name": faker.name.firstName(),
                 "gender": "male",
                 "last_name": faker.name.lastName(),
-                "password": "TheDarkRoot00",
+                "password": "nwejkfıower32",
                 "phone": "0"+no,
             }
         }, function (err, httpResponse, body) {
@@ -193,7 +193,7 @@ async function smsBOOM(numara, miktar) {
                 "last_name": faker.name.lastName(),
                 "email": faker.internet.email(),
                 "phone": "0"+no,
-                "password": "TheDarkRoot00",
+                "password": "nwejkfıower32",
                 "email_allowed": "true",
                 "sms_allowed": "true",
                 "confirm": "true",
