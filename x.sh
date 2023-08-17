@@ -70,7 +70,7 @@ $CC    ├─┬─⊸ [\033[0;1mK$CC]$GG Terkey
 $CC    │ └─⊸ [\033[33;1mi$CC]$GG Utility to add direction keys to Termux.
 $CC    └─┬─⊸ [\033[0;1mQ$CC]$GG Exit
 $CC      └─⊸ [\033[33;1mi$CC]$GG Tdr-Tool exit.\n"
-read -p " ${CC}[${YY}*${CC}]${YY} Program Number: " pn
+read -p " $(echo -e " ${CC}[${YY}*${CC}]${YY} Program Number: ")" pn
 if [[ $pn == U || $pn == u ]]; then
 clear;echo -e "$CC\n [$YY↓$CC]$GG Updating...\n";apt update -y;apt upgrade -y;clear;
 #Termux Packages Installing
