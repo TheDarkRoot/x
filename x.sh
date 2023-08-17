@@ -42,35 +42,35 @@ $CC    #    #    # #   #          #    #    # #    # #
 $CC    #    #####  #    #         #     ####   ####  ######
 $YY ####################[$GG TheDarkRoot$YY ]####################
 $CC =======================================================
-$CC ┌⊸⟜┬───⊸ [$YY TheDarkRoot Repositories:$CC ]
-$CC │  ├─┬─⊸ [$YY 1$CC ]$GG ⟫ AnonSMS
+$CC ┌⊸⟜┬───⊸ [$MM TheDarkRoot Repositories:$CC ]
+$CC │  ├─┬─⊸ [$YY 1$CC ]$BB ⟫ AnonSMS
 $CC │  │ └─⊸ [$YY i$CC ]$GG Anonymous SMS sending tool.
-$CC │  ├─┬─⊸ [$YY 2$CC ]$GG ⟫ Hasher
+$CC │  ├─┬─⊸ [$YY 2$CC ]$BB ⟫ Hasher
 $CC │  │ └─⊸ [$YY i$CC ]$GG This is a Hash Cracker.
-$CC │  ├─┬─⊸ [$YY 3$CC ]$GG ⟫ Hashgen
+$CC │  ├─┬─⊸ [$YY 3$CC ]$BB ⟫ Hashgen
 $CC │  │ └─⊸ [$YY i$CC ]$GG Generate more 39 type hash.
-$CC │  ├─┬─⊸ [$YY 4$CC ]$GG ⟫ Terpack
+$CC │  ├─┬─⊸ [$YY 4$CC ]$BB ⟫ Terpack
 $CC │  │ └─⊸ [$YY i$CC ]$GG TheDarkRoot termux package installer.
-$CC │  ├─┬─⊸ [$YY 5$CC ]$GG ⟫ Tertest
+$CC │  ├─┬─⊸ [$YY 5$CC ]$BB ⟫ Tertest
 $CC │  │ └─⊸ [$YY i$CC ]$GG Termux internet speed test.
-$CC │  ├─┬─⊸ [$YY 6$CC ]$GG ⟫ Tertext
+$CC │  ├─┬─⊸ [$YY 6$CC ]$BB ⟫ Tertext
 $CC │  │ └─⊸ [$YY i$CC ]$GG Program for creating words from letters.
-$CC │  ├─┬─⊸ [$YY 7$CC ]$GG ⟫ UserID
+$CC │  ├─┬─⊸ [$YY 7$CC ]$BB ⟫ UserID
 $CC │  │ └─⊸ [$YY i$CC ]$GG Search usernames on social media.
-$CC │  └─┬─⊸ [$YY X$CC ]$GG ⟫ X-Project
+$CC │  └─┬─⊸ [$YY X$CC ]$BB ⟫ X-Project
 $CC │    └─⊸ [$YY i$CC ]$GG Code in the trial period.
-$CC └⊸⟜┬───⊸ [$YY Termux Settings:$CC ]
-$CC    ├─┬─⊸ [$YY U$CC ]$GG ⟫ Update
+$CC └⊸⟜┬───⊸ [$MM Termux Settings:$CC ]
+$CC    ├─┬─⊸ [$YY U$CC ]$BB ⟫ Update
 $CC    │ └─⊸ [$YY i$CC ]$GG Termux update.
-$CC    ├─┬─⊸ [$YY P$CC ]$GG ⟫ ParrotOS-T
+$CC    ├─┬─⊸ [$YY P$CC ]$BB ⟫ ParrotOS-T
 $CC    │ └─⊸ [$YY i$CC ]$GG Parrot OS theme for Termux.
-$CC    ├─┬─⊸ [$YY T$CC ]$GG ⟫ TheDarkRoot-T
+$CC    ├─┬─⊸ [$YY T$CC ]$BB ⟫ TheDarkRoot-T
 $CC    │ └─⊸ [$YY i$CC ]$GG TheDarkRoot theme for Termux.
-$CC    ├─┬─⊸ [$YY K$CC ]$GG ⟫ Terkey
+$CC    ├─┬─⊸ [$YY K$CC ]$BB ⟫ Terkey
 $CC    │ └─⊸ [$YY i$CC ]$GG Utility to add direction keys to Termux.
-$CC    └─┬─⊸ [$YY Q$CC ]$GG ⟫ Exit
+$CC    └─┬─⊸ [$YY Q$CC ]$BB ⟫ Exit
 $CC      └─⊸ [$YY i$CC ]$GG Tdr-Tool exit.\n"
-read -p " $(echo -e " ${CC}[${YY}*${CC}]${YY} Program Number: ")" pn
+read -p " $(echo -e " ${CC}[${YY}*${CC}]${MM} Program Number: ${YY}")" pn
 if [[ $pn == U || $pn == u ]]; then
 clear;echo -e "$CC\n [$YY↓$CC]$GG Updating...\n";apt update -y;apt upgrade -y;clear;
 #Termux Packages Installing
