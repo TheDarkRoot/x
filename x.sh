@@ -43,33 +43,33 @@ $CC    #    #####  #    #         #     ####   ####  ######
 $YY ####################[$GG TheDarkRoot$YY ]####################
 $CC =======================================================
 $CC ┌⊸⟜┬───⊸ [$MM TheDarkRoot Repositories:$CC ]
-$CC │  ├─┬─⊸ [$YY 1$CC ]$BB ⟫ AnonSMS
-$CC │  │ └─⊸ [$YY i$CC ]$GG Anonymous SMS sending tool.
-$CC │  ├─┬─⊸ [$YY 2$CC ]$BB ⟫ Hasher
-$CC │  │ └─⊸ [$YY i$CC ]$GG This is a Hash Cracker.
-$CC │  ├─┬─⊸ [$YY 3$CC ]$BB ⟫ Hashgen
-$CC │  │ └─⊸ [$YY i$CC ]$GG Generate more 39 type hash.
-$CC │  ├─┬─⊸ [$YY 4$CC ]$BB ⟫ Terpack
-$CC │  │ └─⊸ [$YY i$CC ]$GG TheDarkRoot termux package installer.
-$CC │  ├─┬─⊸ [$YY 5$CC ]$BB ⟫ Tertest
-$CC │  │ └─⊸ [$YY i$CC ]$GG Termux internet speed test.
-$CC │  ├─┬─⊸ [$YY 6$CC ]$BB ⟫ Tertext
-$CC │  │ └─⊸ [$YY i$CC ]$GG Program for creating words from letters.
-$CC │  ├─┬─⊸ [$YY 7$CC ]$BB ⟫ UserID
-$CC │  │ └─⊸ [$YY i$CC ]$GG Search usernames on social media.
-$CC │  └─┬─⊸ [$YY X$CC ]$BB ⟫ X-Project
-$CC │    └─⊸ [$YY i$CC ]$GG Code in the trial period.
+$CC │  ├─┬─⊸ [$YY 1$CC ]$BB ⟫$RR AnonSMS
+$CC │  │ └─⊸ [$YY *$CC ]$GG Anonymous SMS sending tool.
+$CC │  ├─┬─⊸ [$YY 2$CC ]$BB ⟫$RR Hasher
+$CC │  │ └─⊸ [$YY *$CC ]$GG This is a Hash Cracker.
+$CC │  ├─┬─⊸ [$YY 3$CC ]$BB ⟫$RR Hashgen
+$CC │  │ └─⊸ [$YY *$CC ]$GG Generate more 39 type hash.
+$CC │  ├─┬─⊸ [$YY 4$CC ]$BB ⟫$RR Terpack
+$CC │  │ └─⊸ [$YY *$CC ]$GG TheDarkRoot termux package installer.
+$CC │  ├─┬─⊸ [$YY 5$CC ]$BB ⟫$RR Tertest
+$CC │  │ └─⊸ [$YY *$CC ]$GG Termux internet speed test.
+$CC │  ├─┬─⊸ [$YY 6$CC ]$BB ⟫$RR Tertext
+$CC │  │ └─⊸ [$YY *$CC ]$GG Program for creating words from letters.
+$CC │  ├─┬─⊸ [$YY 7$CC ]$BB ⟫$RR UserID
+$CC │  │ └─⊸ [$YY *$CC ]$GG Search usernames on social media.
+$CC │  └─┬─⊸ [$YY X$CC ]$BB ⟫$RR X-Project
+$CC │    └─⊸ [$YY *$CC ]$GG Code in the trial period.
 $CC └⊸⟜┬───⊸ [$MM Termux Settings:$CC ]
-$CC    ├─┬─⊸ [$YY U$CC ]$BB ⟫ Update
-$CC    │ └─⊸ [$YY i$CC ]$GG Termux update.
-$CC    ├─┬─⊸ [$YY P$CC ]$BB ⟫ ParrotOS-T
-$CC    │ └─⊸ [$YY i$CC ]$GG Parrot OS theme for Termux.
-$CC    ├─┬─⊸ [$YY T$CC ]$BB ⟫ TheDarkRoot-T
-$CC    │ └─⊸ [$YY i$CC ]$GG TheDarkRoot theme for Termux.
-$CC    ├─┬─⊸ [$YY K$CC ]$BB ⟫ Terkey
-$CC    │ └─⊸ [$YY i$CC ]$GG Utility to add direction keys to Termux.
-$CC    └─┬─⊸ [$YY Q$CC ]$BB ⟫ Exit
-$CC      └─⊸ [$YY i$CC ]$GG Tdr-Tool exit.\n"
+$CC    ├─┬─⊸ [$YY U$CC ]$BB ⟫$RR Update
+$CC    │ └─⊸ [$YY *$CC ]$GG Termux update.
+$CC    ├─┬─⊸ [$YY P$CC ]$BB ⟫$RR ParrotOS-T
+$CC    │ └─⊸ [$YY *$CC ]$GG Parrot OS theme for Termux.
+$CC    ├─┬─⊸ [$YY T$CC ]$BB ⟫$RR TheDarkRoot-T
+$CC    │ └─⊸ [$YY *$CC ]$GG TheDarkRoot theme for Termux.
+$CC    ├─┬─⊸ [$YY K$CC ]$BB ⟫$RR Terkey
+$CC    │ └─⊸ [$YY *$CC ]$GG Utility to add direction keys to Termux.
+$CC    └─┬─⊸ [$YY Q$CC ]$BB ⟫$RR Exit
+$CC      └─⊸ [$YY *$CC ]$GG Tdr-Tool exit.\n"
 read -p " $(echo -e " ${CC}[${YY}*${CC}]${MM} Program Number: ${YY}")" pn
 if [[ $pn == U || $pn == u ]]; then
 clear;echo -e "$CC\n [$YY↓$CC]$GG Updating...\n";apt update -y;apt upgrade -y;clear;
