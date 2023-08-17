@@ -58,8 +58,8 @@ $CC │  │ └─⊸ [\033[33;1mi$CC]$GG Program for creating words from lette
 $CC │  ├─┬─⊸ [\033[0;1m7$CC]$GG UserID
 $CC │  │ └─⊸ [\033[33;1mi$CC]$GG Search usernames on social media.
 $CC │  └─┬─⊸ [\033[0;1mX$CC]$GG X-Project
-$CC │    └─⊸ [\033[33;1mi$CC]$GG Code in the trial period.\n$CC │
-$CC └⊸⟜┬─⊸ [\033[33;1mTermux Settings:$CC]\n    │
+$CC │    └─⊸ [\033[33;1mi$CC]$GG Code in the trial period.
+$CC └⊸⟜┬─⊸ [\033[33;1mTermux Settings:$CC]
 $CC    ├─┬─⊸ [\033[0;1mU$CC]$GG Update
 $CC    │ └─⊸ [\033[33;1mi$CC]$GG Termux update.
 $CC    ├─┬─⊸ [\033[0;1mP$CC]$GG ParrotOS-T
