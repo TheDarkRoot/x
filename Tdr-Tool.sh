@@ -152,7 +152,7 @@ elif [[ $pn == 7 || $pn == 07 ]]; then
 
 else
 	echo -e '\n \033[33;1m[\033[31;1mX\033[33;1m]\033[31;1m Invalid action.\n'	
-	sleep 0
+	sleep 1
 	clear
 	bash Tdr-Tool.sh
 fi
