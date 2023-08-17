@@ -42,22 +42,22 @@ $CC    #    #    # #   #          #    #    # #    # #
 $CC    #    #####  #    #         #     ####   ####  ######
 $YY ####################[$GG TheDarkRoot$YY ]####################
 $CC =======================================================
-$CC ┌⊸⟜┬─⊸ [\033[33;1mTheDarkRoot Repositories:$CC]
-$CC │  ├─┬─⊸ [\033[0;1m1$CC]$GG AnonSMS
+$CC ┌⊸⟜┬───⊸ [\033[33;1mTheDarkRoot Repositories:$CC]
+$CC │  ├─┬─⊸ [\033[0;1m1$CC]$GG ⟫ AnonSMS
 $CC │  │ └─⊸ [\033[33;1mi$CC]$GG Anonymous SMS sending tool.
-$CC │  ├─┬─⊸ [\033[0;1m2$CC]$GG Hasher
+$CC │  ├─┬─⊸ [\033[0;1m2$CC]$GG ⟫ Hasher
 $CC │  │ └─⊸ [\033[33;1mi$CC]$GG This is a Hash Cracker.
-$CC │  ├─┬─⊸ [\033[0;1m3$CC]$GG Hashgen
+$CC │  ├─┬─⊸ [\033[0;1m3$CC]$GG ⟫ Hashgen
 $CC │  │ └─⊸ [\033[33;1mi$CC]$GG Generate more 39 type hash.
-$CC │  ├─┬─⊸ [\033[0;1m4$CC]$GG Terpack
+$CC │  ├─┬─⊸ [\033[0;1m4$CC]$GG ⟫ Terpack
 $CC │  │ └─⊸ [\033[33;1mi$CC]$GG TheDarkRoot termux package installer.
-$CC │  ├─┬─⊸ [\033[0;1m5$CC]$GG Tertest
+$CC │  ├─┬─⊸ [\033[0;1m5$CC]$GG ⟫ Tertest
 $CC │  │ └─⊸ [\033[33;1mi$CC]$GG Termux internet speed test.
-$CC │  ├─┬─⊸ [\033[0;1m6$CC]$GG Tertext
+$CC │  ├─┬─⊸ [\033[0;1m6$CC]$GG ⟫ Tertext
 $CC │  │ └─⊸ [\033[33;1mi$CC]$GG Program for creating words from letters.
-$CC │  ├─┬─⊸ [\033[0;1m7$CC]$GG UserID
+$CC │  ├─┬─⊸ [\033[0;1m7$CC]$GG ⟫ UserID
 $CC │  │ └─⊸ [\033[33;1mi$CC]$GG Search usernames on social media.
-$CC │  └─┬─⊸ [\033[0;1mX$CC]$GG X-Project
+$CC │  └─┬─⊸ [\033[0;1mX$CC]$GG ⟫ X-Project
 $CC │    └─⊸ [\033[33;1mi$CC]$GG Code in the trial period.
 $CC └⊸⟜┬─⊸ [\033[33;1mTermux Settings:$CC]
 $CC    ├─┬─⊸ [\033[0;1mU$CC]$GG Update
@@ -106,7 +106,7 @@ elif [[ $pn == K || $pn == k ]]; then
         bash Tdr-Tool.sh
 
 elif [[ $pn == Q || $pn == q ]]; then
-        echo -e "\n$CC [$YY*$CC]$RR Good bye...$YY\n";
+        echo -e "\n $CC [$YY*$CC]$RR Good bye...";
 		sleep 0;exit;
 
 elif [[ $pn == 1 || $pn == 01 ]]; then
