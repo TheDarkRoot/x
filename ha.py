@@ -148,7 +148,7 @@ except ImportError:
 
     os.system("pip3 install --upgrade pip")
     os.system("pip3 install passlib")
-    os.system("pip3 install progressbar")
+    os.system("pip3 install progressbar2")
 
     print(BB + "\n[" + WW + "=" + BB + "] " + GG + "install success, run program again.\n" + W)
     sys.exit()
