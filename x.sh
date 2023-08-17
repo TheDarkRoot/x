@@ -60,15 +60,15 @@ $CC │  │ └─⊸ [$YY i$CC ]$GG Search usernames on social media.
 $CC │  └─┬─⊸ [$YY X$CC ]$GG ⟫ X-Project
 $CC │    └─⊸ [$YY i$CC ]$GG Code in the trial period.
 $CC └⊸⟜┬───⊸ [$YY Termux Settings:$CC ]
-$CC    ├─┬─⊸ [$YY U$CC ]$GG Update
+$CC    ├─┬─⊸ [$YY U$CC ]$GG ⟫ Update
 $CC    │ └─⊸ [$YY i$CC ]$GG Termux update.
-$CC    ├─┬─⊸ [$YY P$CC ]$GG ParrotOS-T
+$CC    ├─┬─⊸ [$YY P$CC ]$GG ⟫ ParrotOS-T
 $CC    │ └─⊸ [$YY i$CC ]$GG Parrot OS theme for Termux.
-$CC    ├─┬─⊸ [$YY T$CC ]$GG TheDarkRoot-T
+$CC    ├─┬─⊸ [$YY T$CC ]$GG ⟫ TheDarkRoot-T
 $CC    │ └─⊸ [$YY i$CC ]$GG TheDarkRoot theme for Termux.
-$CC    ├─┬─⊸ [$YY K$CC ]$GG Terkey
+$CC    ├─┬─⊸ [$YY K$CC ]$GG ⟫ Terkey
 $CC    │ └─⊸ [$YY i$CC ]$GG Utility to add direction keys to Termux.
-$CC    └─┬─⊸ [$YY Q$CC ]$GG Exit
+$CC    └─┬─⊸ [$YY Q$CC ]$GG ⟫ Exit
 $CC      └─⊸ [$YY i$CC ]$GG Tdr-Tool exit.\n"
 read -p " $(echo -e " ${CC}[${YY}*${CC}]${YY} Program Number: ")" pn
 if [[ $pn == U || $pn == u ]]; then
