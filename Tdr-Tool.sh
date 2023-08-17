@@ -42,35 +42,35 @@ $CC    #    #    # #   #          #    #    # #    # #
 $CC    #    #####  #    #         #     ####   ####  ######
 $YY ####################[$GG TheDarkRoot$YY ]####################
 $CC =======================================================
-$CC ┌⊸⟜┬─⊸ [\033[33;1mTheDarkRoot Repositories:$CC]
-$CC │  ├─┬─⊸ [\033[0;1m1$CC]$GG AnonSMS
-$CC │  │ └─⊸ [\033[33;1mi$CC]$GG Anonymous SMS sending tool.
-$CC │  ├─┬─⊸ [\033[0;1m2$CC]$GG Hasher
-$CC │  │ └─⊸ [\033[33;1mi$CC]$GG This is a Hash Cracker.
-$CC │  ├─┬─⊸ [\033[0;1m3$CC]$GG Hashgen
-$CC │  │ └─⊸ [\033[33;1mi$CC]$GG Generate more 39 type hash.
-$CC │  ├─┬─⊸ [\033[0;1m4$CC]$GG Terpack
-$CC │  │ └─⊸ [\033[33;1mi$CC]$GG TheDarkRoot termux package installer.
-$CC │  ├─┬─⊸ [\033[0;1m5$CC]$GG Tertest
-$CC │  │ └─⊸ [\033[33;1mi$CC]$GG Termux internet speed test.
-$CC │  ├─┬─⊸ [\033[0;1m6$CC]$GG Tertext
-$CC │  │ └─⊸ [\033[33;1mi$CC]$GG Program for creating words from letters.
-$CC │  ├─┬─⊸ [\033[0;1m7$CC]$GG UserID
-$CC │  │ └─⊸ [\033[33;1mi$CC]$GG Search usernames on social media.
-$CC │  └─┬─⊸ [\033[0;1mX$CC]$GG X-Project
-$CC │    └─⊸ [\033[33;1mi$CC]$GG Code in the trial period.
-$CC └⊸⟜┬─⊸ [\033[33;1mTermux Settings:$CC]
-$CC    ├─┬─⊸ [\033[0;1mU$CC]$GG Update
-$CC    │ └─⊸ [\033[33;1mi$CC]$GG Termux update.
-$CC    ├─┬─⊸ [\033[0;1mP$CC]$GG ParrotOS-T
-$CC    │ └─⊸ [\033[33;1mi$CC]$GG Parrot OS theme for Termux.
-$CC    ├─┬─⊸ [\033[0;1mT$CC]$GG TheDarkRoot-T
-$CC    │ └─⊸ [\033[33;1mi$CC]$GG TheDarkRoot theme for Termux.
-$CC    ├─┬─⊸ [\033[0;1mK$CC]$GG Terkey
-$CC    │ └─⊸ [\033[33;1mi$CC]$GG Utility to add direction keys to Termux.
-$CC    └─┬─⊸ [\033[0;1mQ$CC]$GG Exit
-$CC      └─⊸ [\033[33;1mi$CC]$GG Tdr-Tool exit.$YY\n"
-read -p " [*] Program Number: " pn
+$CC ┌⊸⟜┬───⊸ [$MM TheDarkRoot Repositories:$CC ]
+$CC │  ├─┬─⊸ [$YY 1$CC ]$BB ⟫$RR AnonSMS
+$CC │  │ └─⊸ [$YY *$CC ]$GG Anonymous SMS sending tool.
+$CC │  ├─┬─⊸ [$YY 2$CC ]$BB ⟫$RR Hasher
+$CC │  │ └─⊸ [$YY *$CC ]$GG This is a Hash Cracker.
+$CC │  ├─┬─⊸ [$YY 3$CC ]$BB ⟫$RR Hashgen
+$CC │  │ └─⊸ [$YY *$CC ]$GG Generate more 39 type hash.
+$CC │  ├─┬─⊸ [$YY 4$CC ]$BB ⟫$RR Terpack
+$CC │  │ └─⊸ [$YY *$CC ]$GG TheDarkRoot termux package installer.
+$CC │  ├─┬─⊸ [$YY 5$CC ]$BB ⟫$RR Tertest
+$CC │  │ └─⊸ [$YY *$CC ]$GG Termux internet speed test.
+$CC │  ├─┬─⊸ [$YY 6$CC ]$BB ⟫$RR Tertext
+$CC │  │ └─⊸ [$YY *$CC ]$GG Program for creating words from letters.
+$CC │  ├─┬─⊸ [$YY 7$CC ]$BB ⟫$RR UserID
+$CC │  │ └─⊸ [$YY *$CC ]$GG Search usernames on social media.
+$CC │  └─┬─⊸ [$YY X$CC ]$BB ⟫$RR X-Project
+$CC │    └─⊸ [$YY *$CC ]$GG Code in the trial period.
+$CC └⊸⟜┬───⊸ [$MM Termux Settings:$CC ]
+$CC    ├─┬─⊸ [$YY U$CC ]$BB ⟫$RR Update
+$CC    │ └─⊸ [$YY *$CC ]$GG Termux update.
+$CC    ├─┬─⊸ [$YY P$CC ]$BB ⟫$RR ParrotOS-T
+$CC    │ └─⊸ [$YY *$CC ]$GG Parrot OS theme for Termux.
+$CC    ├─┬─⊸ [$YY T$CC ]$BB ⟫$RR TheDarkRoot-T
+$CC    │ └─⊸ [$YY *$CC ]$GG TheDarkRoot theme for Termux.
+$CC    ├─┬─⊸ [$YY K$CC ]$BB ⟫$RR Terkey
+$CC    │ └─⊸ [$YY *$CC ]$GG Utility to add direction keys to Termux.
+$CC    └─┬─⊸ [$YY Q$CC ]$BB ⟫$RR Exit
+$CC      └─⊸ [$YY *$CC ]$GG Tdr-Tool exit.\n"
+read -p " $(echo -e " ${CC}[${YY}*${CC}]${MM} Program Number: ${YY}")" pn
 if [[ $pn == U || $pn == u ]]; then
 clear;echo -e "$CC\n [$YY↓$CC]$GG Updating...\n";apt update -y;apt upgrade -y;clear;
 #Termux Packages Installing
@@ -106,7 +106,7 @@ elif [[ $pn == K || $pn == k ]]; then
         bash Tdr-Tool.sh
 
 elif [[ $pn == Q || $pn == q ]]; then
-        echo -e "\n$CC [$YY*$CC]$RR Good bye...$YY\n";
+        echo -e "\n $CC [$YY*$CC]$RR Good bye...";
 		sleep 0;exit;
 
 elif [[ $pn == 1 || $pn == 01 ]]; then
@@ -151,7 +151,7 @@ elif [[ $pn == 7 || $pn == 07 ]]; then
         bash Tdr-Tool.sh
 
 else
-	echo -e '\n \033[33;1m[\033[31;1mX\033[33;1m]\033[31;1m Invalid action.\n'	
+	echo -e "\n  ${YY}[${RR}X${YY}]${RR} Invalid action."	
 	sleep 1
 	clear
 	bash Tdr-Tool.sh
