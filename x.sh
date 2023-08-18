@@ -160,5 +160,5 @@ else
 	echo -e "\n  ${YY}[${RR}⦸${YY}]${RR} Invalid Action."	
 	sleep 1
 	clear
-	cd;cd x;bash Tdr-Tool.sh
+	cd ~/Tdr-Tool;bash Tdr-Tool.sh
 fi
