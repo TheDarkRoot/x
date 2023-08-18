@@ -40,9 +40,9 @@ $CC    #    #    # #    #  #####  #    #    # #    # #
 $CC    #    #    # #####          #    #    # #    # #
 $CC    #    #    # #   #          #    #    # #    # #
 $CC    #    #####  #    #         #     ####   ####  ######
-$YY ❰##################[›$GG TheDarkRoot $YY‹]##################❱
+$YY ###################[›$GG TheDarkRoot $YY‹]###################
 $CC =======================================================
-$CC ┌⊸⟜┬───⊸ [$MM TheDarkRoot Repositories:$CC ]
+$CC ┌⊸⟜┬───⊸ [$MM TheDarkRoot Repositories: $CC]
 $CC │  ├─┬─⊸ [$YY›1$YY‹$RR AnonSMS$CC]
 $CC │  │ └─⊸ [$YY »$GG Anonymous SMS sending tool.$CC]
 $CC │  ├─┬─⊸ [$YY›2$YY‹$RR Hasher$CC]
@@ -59,7 +59,7 @@ $CC │  ├─┬─⊸ [$YY›7$YY‹$RR UserID$CC]
 $CC │  │ └─⊸ [$YY »$GG Search usernames on social media.$CC]
 $CC │  └─┬─⊸ [$YY›X$YY‹$RR X-Project$CC]
 $CC │    └─⊸ [$YY »$GG Code in the trial period.$CC]
-$CC └⊸⟜┬───⊸ [$MM Termux Settings:$CC ]
+$CC └⊸⟜┬───⊸ [$MM Termux Settings: $CC]
 $CC    ├─┬─⊸ [$YY›U$YY‹$RR Update$CC]
 $CC    │ └─⊸ [$YY »$GG Termux update.$CC]
 $CC    ├─┬─⊸ [$YY›P$YY‹$RR ParrotOS-T$CC]
