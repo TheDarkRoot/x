@@ -68,7 +68,7 @@ $CC    ├─┬─⊸ [$YY» T $BB ⟫$RR TheDarkRoot-T$CC]
 $CC    │ └─⊸ [$YY»$GG TheDarkRoot theme for Termux.$CC]
 $CC    ├─┬─⊸ [$YY» K $BB ⟫$RR Terkey$CC]
 $CC    │ └─⊸ [$YY»$GG Utility to add direction keys to Termux.$CC]
-$CC    └─┬─⊸ [$YY» Q $BB ⟫$RR Exit$CC] $WW› ‹ ⊘ ⦸ ⧁ 【 】 〔 〕
+$CC    └─┬─⊸ [$YY» Q $BB ⟫$RR Exit$CC] $WW› ‹ ⊘ ⦸ ⧁ 【 】 〔 🗙 〕 ⚠
 $CC      └─⊸ [$YY»$GGTdr-Tool exit.$CC]\n"
 read -p " $(echo -e " ${CC}[${YY}»${CC}]${MM} Program Number: ${YY}")" pn
 if [[ $pn == U || $pn == u ]]; then
