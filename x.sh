@@ -43,34 +43,34 @@ $CC    #    #####  #    #         #     ####   ####  ######
 $YY ####################[$GG TheDarkRoot$YY ]####################
 $CC =======================================================
 $CC ┌⊸⟜┬───⊸ [$MM TheDarkRoot Repositories:$CC ]
-$CC │  ├─┬─⊸ [$YY» 1 $BB ⟫$RR AnonSMS$CC]
+$CC │  ├─┬─⊸ [$YY›1$YY‹$RR AnonSMS$CC]
 $CC │  │ └─⊸ [$YY»$GG Anonymous SMS sending tool.$CC]
-$CC │  ├─┬─⊸ [$YY» 2 $BB ⟫$RR Hasher$CC]
+$CC │  ├─┬─⊸ [$YY›2$YY‹$RR Hasher$CC]
 $CC │  │ └─⊸ [$YY»$GG This is a Hash Cracker.$CC]
-$CC │  ├─┬─⊸ [$YY» 3 $BB ⟫$RR Hashgen$CC]
+$CC │  ├─┬─⊸ [$YY›3$YY‹$RR Hashgen$CC]
 $CC │  │ └─⊸ [$YY»$GG Generate more 39 type hash.$CC]
-$CC │  ├─┬─⊸ [$YY» 4 $BB ⟫$RR Terpack$CC]
+$CC │  ├─┬─⊸ [$YY›4$YY‹$RR Terpack$CC]
 $CC │  │ └─⊸ [$YY»$GG TheDarkRoot termux package installer.$CC]
-$CC │  ├─┬─⊸ [$YY» 5 $BB ⟫$RR Tertest$CC]
+$CC │  ├─┬─⊸ [$YY›5$YY‹$RR Tertest$CC]
 $CC │  │ └─⊸ [$YY»$GG Termux internet speed test.
-$CC │  ├─┬─⊸ [$YY» 6 $BB ⟫$RR Tertext$CC]
+$CC │  ├─┬─⊸ [$YY›6$YY‹$RR Tertext$CC]
 $CC │  │ └─⊸ [$YY»$GG Program for creating words from letters.$CC]
-$CC │  ├─┬─⊸ [$YY» 7 $BB ⟫$RR UserID$CC]
+$CC │  ├─┬─⊸ [$YY›7$YY‹$RR UserID$CC]
 $CC │  │ └─⊸ [$YY»$GG Search usernames on social media.$CC]
-$CC │  └─┬─⊸ [$YY» X $BB ⟫$RR X-Project$CC]
+$CC │  └─┬─⊸ [$YY›$YY‹$RR X-Project$CC]
 $CC │    └─⊸ [$YY»$GG Code in the trial period.$CC]
 $CC └⊸⟜┬───⊸ [$MM Termux Settings:$CC ]
-$CC    ├─┬─⊸ [$YY» U $BB ⟫$RR Update$CC]
+$CC    ├─┬─⊸ [$YY›U$YY‹$RR Update$CC]
 $CC    │ └─⊸ [$YY»$GG Termux update.$CC]
-$CC    ├─┬─⊸ [$YY» P $BB ⟫$RR ParrotOS-T$CC]
+$CC    ├─┬─⊸ [$YY›P$YY‹$RR ParrotOS-T$CC]
 $CC    │ └─⊸ [$YY»$GG Parrot OS theme for Termux.$CC]
-$CC    ├─┬─⊸ [$YY» T $BB ⟫$RR TheDarkRoot-T$CC]
+$CC    ├─┬─⊸ [$YY›T$YY‹$RR TheDarkRoot-T$CC]
 $CC    │ └─⊸ [$YY»$GG TheDarkRoot theme for Termux.$CC]
-$CC    ├─┬─⊸ [$YY» K $BB ⟫$RR Terkey$CC]
+$CC    ├─┬─⊸ [$YY›K$YY‹$RR Terkey$CC]
 $CC    │ └─⊸ [$YY»$GG Utility to add direction keys to Termux.$CC]
-$CC    └─┬─⊸ [$YY» Q $BB ⟫$RR Exit$CC] $WW› ‹ ⊘ ⦸ ⧁ 【 】 〔 🗙 〕 ⚠
-$CC      └─⊸ [$YY»$GGTdr-Tool exit.$CC]\n"
-read -p " $(echo -e " ${CC}[${YY}»${CC}]${MM} Program Number: ${YY}")" pn
+$CC    └─┬─⊸ [$YY›Q$YY‹$RR Exit$CC]
+$CC      └─⊸ [$YY»$GG Tdr-Tool exit.$CC]\n"
+read -p " $(echo -e " ${CC}【${YY}»${CC}】${MM} Program Number: ${YY}")" pn
 if [[ $pn == U || $pn == u ]]; then
 clear;echo -e "$CC\n [$YY↓$CC]$GG Updating...\n";apt update -y;apt upgrade -y;clear;
 #Termux Packages Installing
@@ -151,8 +151,8 @@ elif [[ $pn == 7 || $pn == 07 ]]; then
         bash Tdr-Tool.sh
 
 else
-	echo -e "\n  ${YY}[${RR}X${YY}]${RR} Invalid action."	
+	echo -e "\n  ${YY}[${RR}⦸${YY}]${RR} Invalid Action."	
 	sleep 1
 	clear
-	cd x;bash Tdr-Tool.sh
+	cd;cd x;bash Tdr-Tool.sh
 fi
