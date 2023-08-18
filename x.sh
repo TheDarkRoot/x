@@ -112,7 +112,7 @@ elif [[ $pn == BASH || $pn == bash ]]; then
         bash x.sh
 
 elif [[ $pn == Q || $pn == q ]]; then
-        echo -e "\n $CC [$YY*$CC]$RR Good bye...";
+        echo -e "\n $CC [$YY»$CC]$RR Good bye...";
 		sleep 0;exit;
 
 elif [[ $pn == 1 || $pn == 01 ]]; then
