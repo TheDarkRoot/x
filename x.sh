@@ -105,12 +105,18 @@ elif [[ $pn == K || $pn == k ]]; then
 	rm -rf Terkey.sh
         bash Tdr-Tool.sh
 
+elif [[ $pn == BASH || $pn == bash ]]; then
+        echo -e "\n$CC [$YY*$CC]$GG Tdr-Tool Updating...\n$CC [\033[33;1mi$CC]$GG Utility to add direction keys to Termux.";
+	( cd ~/Tdr-Tool/;rm -rf Tdr-Tool.sh;curl https://raw.githubusercontent.com/TheDarkRoot/Tdr-Tool/master/Tdr-Tool.sh -o Tdr-Tool.sh; ) &> /dev/null & spin;
+	cd ~/Tdr-Tool
+        bash Tdr-Tool.sh
+
 elif [[ $pn == Q || $pn == q ]]; then
         echo -e "\n $CC [$YY*$CC]$RR Good bye...";
 		sleep 0;exit;
 
 elif [[ $pn == 1 || $pn == 01 ]]; then
-        echo -e "\n$CC [$YY*$CC]$GG Downloading AnonSMS...\n$CC [\033[33;1mi$CC]$GG Anonymous SMS sending tool.";
+        echo -e "\n$CC [$YY*$CC]$GG Downloading AnonSMS...\n$CC [\033[33;1mi$CC]$GG TheDarkRoot tool pack.";
 	( cd ~/Tdr-Tool;rm -rf AnonSMS;git clone https://github.com/TheDarkRoot/AnonSMS.git;cd AnonSMS;chmod +x *; ) &> /dev/null & spin;
 	cd ~/Tdr-Tool
         bash Tdr-Tool.sh
