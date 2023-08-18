@@ -107,9 +107,9 @@ elif [[ $pn == K || $pn == k ]]; then
 
 elif [[ $pn == BASH || $pn == bash ]]; then
         echo -e "\n$CC [$YY*$CC]$GG Tdr-Tool Updating...\n$CC [\033[33;1mi$CC]$GG Utility to add direction keys to Termux.";
-	( cd ~/Tdr-Tool/;rm -rf Tdr-Tool.sh;curl https://raw.githubusercontent.com/TheDarkRoot/Tdr-Tool/master/Tdr-Tool.sh -o Tdr-Tool.sh; ) &> /dev/null & spin;
-	cd ~/Tdr-Tool
-        bash Tdr-Tool.sh
+	( cd ~/x/;rm -rf x.sh;curl https://raw.githubusercontent.com/TheDarkRoot/x/master/x.sh -o x.sh; ) &> /dev/null & spin;
+	cd ~/x
+        bash x.sh
 
 elif [[ $pn == Q || $pn == q ]]; then
         echo -e "\n $CC [$YY*$CC]$RR Good bye...";
