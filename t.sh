@@ -1,4 +1,5 @@
 #!/bin/bash
+# -*- coding: utf-8 -*-
 spin () {
 local pid=$!
 local delay=0.10
