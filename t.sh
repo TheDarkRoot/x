@@ -81,8 +81,6 @@ read -p " $(echo -e " ${CC}[${YY}»${CC}]${MM} Program Number: ${YY}")" pn
     if [[ $pn == AIO || $pn == aio ]]; then
         echo -e "\n$CC [$YY*$CC]$GG AIO Downloading...\n$CC [\033[33;1mi$CC]$GG Downloading all of the codes."
         for i in {1..7}; do
-            echo -e "\n${YY}»${CC} Running function ${i}..."
-            run_function "$i"
         done
         sleep 5
 	
