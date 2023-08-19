@@ -33,7 +33,6 @@ W="\033[0;1m"   # White
 R="\033[31;1m"  # Red
 C="\033[36;1m"  # Cyan
 M="\033[35;1m"  # Magenta
-clear;
 
 while true; do
 clear;echo -e "
@@ -75,7 +74,7 @@ $CC    │ └─⊸ [$YY »$GG Utility to add direction keys to Termux.$CC]
 $CC    └─┬─⊸ [$YY›Q$YY‹$RR Exit$CC]
 $CC      └─⊸ [$YY »$GG Tdr-Tool exit.$CC]\n"
 
-read -p " $(echo -e " ${CC}[${YY}»${CC}]${MM} Program Number:ⓘ 🛈 ℹ️ \u2139🛈🛈🛈 ${YY}")" pn
+read -p " $(echo -e " ${CC}[${YY}»${CC}]${MM} Program Number: ${YY}")" pn
 	
 	if [[ $pn == U || $pn == u ]]; then
 	clear;echo -e "$CC\n [$YY↓$CC]$GG Updating...\n";apt update -y;apt upgrade -y;clear;
