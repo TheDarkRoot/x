@@ -34,45 +34,45 @@ C="\033[36;1m"  # Cyan
 M="\033[35;1m"  # Magenta
 clear;
 while true; do
-    echo -e "\n$CC #######$YY ##################$CC #######$YY ####################
-	$CC    #    #####  #####          #     ####   ####  #
-	$CC    #    #    # #    #         #    #    # #    # #
-	$CC    #    #    # #    #  #####  #    #    # #    # #
-	$CC    #    #    # #####          #    #    # #    # #
-	$CC    #    #    # #   #          #    #    # #    # #
-	$CC    #    #####  #    #         #     ####   ####  ######
-	$YY ###################[›$GG TheDarkRoot $YY‹]###################
-	$CC =======================================================
-	$CC ┌⊸⟜┬───⊸ [$MM TheDarkRoot Repositories: $CC]
-	$CC │  ├─┬─⊸ [$YY›1$YY‹$RR AnonSMS$CC]
-	$CC │  │ └─⊸ [$YY »$GG Anonymous SMS sending tool.$CC]
-	$CC │  ├─┬─⊸ [$YY›2$YY‹$RR Hasher$CC]
-	$CC │  │ └─⊸ [$YY »$GG This is a Hash Cracker.$CC]
-	$CC │  ├─┬─⊸ [$YY›3$YY‹$RR Hashgen$CC]
-	$CC │  │ └─⊸ [$YY »$GG Generate more 39 type hash.$CC]
-	$CC │  ├─┬─⊸ [$YY›4$YY‹$RR Terpack$CC]
-	$CC │  │ └─⊸ [$YY »$GG TheDarkRoot termux package installer.$CC]
-	$CC │  ├─┬─⊸ [$YY›5$YY‹$RR Tertest$CC]
-	$CC │  │ └─⊸ [$YY »$GG Termux internet speed test.
-	$CC │  ├─┬─⊸ [$YY›6$YY‹$RR Tertext$CC]
-	$CC │  │ └─⊸ [$YY »$GG Program for creating words from letters.$CC]
-	$CC │  ├─┬─⊸ [$YY›7$YY‹$RR UserID$CC]
-	$CC │  │ └─⊸ [$YY »$GG Search usernames on social media.$CC]
-	$CC │  └─┬─⊸ [$YY›X$YY‹$RR X-Project$CC]
-	$CC │    └─⊸ [$YY »$GG Code in the trial period.$CC]
-	$CC └⊸⟜┬───⊸ [$MM Termux Settings: $CC]
-	$CC    ├─┬─⊸ [$YY›U$YY‹$RR Update$CC]
-	$CC    │ └─⊸ [$YY »$GG Termux update.$CC]
-	$CC    ├─┬─⊸ [$YY›P$YY‹$RR ParrotOS-T$CC]
-	$CC    │ └─⊸ [$YY »$GG Parrot OS theme for Termux.$CC]
-	$CC    ├─┬─⊸ [$YY›T$YY‹$RR TheDarkRoot-T$CC]
-	$CC    │ └─⊸ [$YY »$GG TheDarkRoot theme for Termux.$CC]
-	$CC    ├─┬─⊸ [$YY›K$YY‹$RR Terkey$CC]
-	$CC    │ └─⊸ [$YY »$GG Utility to add direction keys to Termux.$CC]
-	$CC    └─┬─⊸ [$YY›Q$YY‹$RR Exit$CC]
-	$CC      └─⊸ [$YY »$GG Tdr-Tool exit.$CC]\n"
+echo -e "\n$CC #######$YY ##################$CC #######$YY ####################
+$CC    #    #####  #####          #     ####   ####  #
+$CC    #    #    # #    #         #    #    # #    # #
+$CC    #    #    # #    #  #####  #    #    # #    # #
+$CC    #    #    # #####          #    #    # #    # #
+$CC    #    #    # #   #          #    #    # #    # #
+$CC    #    #####  #    #         #     ####   ####  ######
+$YY ###################[›$GG TheDarkRoot $YY‹]###################
+$CC =======================================================
+$CC ┌⊸⟜┬───⊸ [$MM TheDarkRoot Repositories: $CC]
+$CC │  ├─┬─⊸ [$YY›1$YY‹$RR AnonSMS$CC]
+$CC │  │ └─⊸ [$YY »$GG Anonymous SMS sending tool.$CC]
+$CC │  ├─┬─⊸ [$YY›2$YY‹$RR Hasher$CC]
+$CC │  │ └─⊸ [$YY »$GG This is a Hash Cracker.$CC]
+$CC │  ├─┬─⊸ [$YY›3$YY‹$RR Hashgen$CC]
+$CC │  │ └─⊸ [$YY »$GG Generate more 39 type hash.$CC]
+$CC │  ├─┬─⊸ [$YY›4$YY‹$RR Terpack$CC]
+$CC │  │ └─⊸ [$YY »$GG TheDarkRoot termux package installer.$CC]
+$CC │  ├─┬─⊸ [$YY›5$YY‹$RR Tertest$CC]
+$CC │  │ └─⊸ [$YY »$GG Termux internet speed test.
+$CC │  ├─┬─⊸ [$YY›6$YY‹$RR Tertext$CC]
+$CC │  │ └─⊸ [$YY »$GG Program for creating words from letters.$CC]
+$CC │  ├─┬─⊸ [$YY›7$YY‹$RR UserID$CC]
+$CC │  │ └─⊸ [$YY »$GG Search usernames on social media.$CC]
+$CC │  └─┬─⊸ [$YY›X$YY‹$RR X-Project$CC]
+$CC │    └─⊸ [$YY »$GG Code in the trial period.$CC]
+$CC └⊸⟜┬───⊸ [$MM Termux Settings: $CC]
+$CC    ├─┬─⊸ [$YY›U$YY‹$RR Update$CC]
+$CC    │ └─⊸ [$YY »$GG Termux update.$CC]
+$CC    ├─┬─⊸ [$YY›P$YY‹$RR ParrotOS-T$CC]
+$CC    │ └─⊸ [$YY »$GG Parrot OS theme for Termux.$CC]
+$CC    ├─┬─⊸ [$YY›T$YY‹$RR TheDarkRoot-T$CC]
+$CC    │ └─⊸ [$YY »$GG TheDarkRoot theme for Termux.$CC]
+$CC    ├─┬─⊸ [$YY›K$YY‹$RR Terkey$CC]
+$CC    │ └─⊸ [$YY »$GG Utility to add direction keys to Termux.$CC]
+$CC    └─┬─⊸ [$YY›Q$YY‹$RR Exit$CC]
+$CC      └─⊸ [$YY »$GG Tdr-Tool exit.$CC]\n"
 
-    read -p " $(echo -e " ${CC}[${YY}»${CC}]${MM} Program Number: ${YY}")" pn
+read -p " $(echo -e " ${CC}[${YY}»${CC}]${MM} Program Number: ${YY}")" pn
 
     if [[ $pn == U || $pn == u ]]; then
 	clear;echo -e "$CC\n [$YY↓$CC]$GG Updating...\n";apt update -y;apt upgrade -y;clear;
