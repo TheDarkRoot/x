@@ -58,10 +58,8 @@ $CC │  ├─┬─⊸ [$YY›5$YY‹$RR Tertest$CC]
 $CC │  │ └─⊸ [$YY »$GG Termux internet speed test.
 $CC │  ├─┬─⊸ [$YY›6$YY‹$RR Tertext$CC]
 $CC │  │ └─⊸ [$YY »$GG Program for creating words from letters.$CC]
-$CC │  ├─┬─⊸ [$YY›7$YY‹$RR UserID$CC]
-$CC │  │ └─⊸ [$YY »$GG Search usernames on social media.$CC]
-$CC │  └─┬─⊸ [$YY›X$YY‹$RR X-Project$CC]
-$CC │    └─⊸ [$YY »$GG Code in the trial period.$CC]
+$CC │  └─┬─⊸ [$YY›7$YY‹$RR UserID$CC]
+$CC │    └─⊸ [$YY »$GG Search usernames on social media.$CC]
 $CC └⊸⟜┬───⊸ [$MM Termux Settings: $CC]
 $CC    ├─┬─⊸ [$YY›U$YY‹$RR Update$CC]
 $CC    │ └─⊸ [$YY »$GG Termux update.$CC]
@@ -99,6 +97,10 @@ read -p " $(echo -e " ${CC}[${YY}»${CC}]${MM} Program Number: ${YY}")" pn
 	elif [[ $pn == K || $pn == k ]]; then
     echo -e "\n$CC [$YY»$CC]$GG Updating Termux key...\n$CC [\033[33;1mi$CC]$GG Utility to add direction keys to Termux.";
 	( cd ~/Tdr-Tool;curl https://raw.githubusercontent.com/TheDarkRoot/Terkey/master/Terkey.sh -o Terkey.sh;chmod +x Terkey.sh;bash Terkey.sh;cd ~/Tdr-Tool;rm -rf Terkey.sh; ) &> /dev/null & spin;
+
+	elif [[ $pn == X || $pn == x ]]; then
+    echo -e "\n$CC [$YY»$CC]$GG X-Project Updating...\n$CC [\033[33;1mi$CC]$GG Code in the trial period.";
+	( cd ~/Tdr-Tool;rm -rf x;git clone https://github.com/TheDarkRoot/x.git;cd x;chmod +x *; ) &> /dev/null & spin;
 
 	elif [[ $pn == BASH || $pn == bash ]]; then
     echo -e "\n$CC [$YY»$CC]$GG Tdr-Tool Updating...\n$CC [\033[33;1mi$CC]$GG Utility to add direction keys to Termux.";
