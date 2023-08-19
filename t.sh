@@ -84,7 +84,7 @@ read -p " $(echo -e " ${CC}[${YY}»${CC}]${MM} Program Number: ${YY}")" pn
             echo -e "\n${YY}»${CC} Running function ${i}..."
             run_function "$i"
         done
-        sleep 1
+        sleep 5
 	
 	elif [[ $pn == U || $pn == u ]]; then
 	clear;echo -e "$CC\n [$YY↓$CC]$GG Updating...\n";apt update -y;apt upgrade -y;clear;
