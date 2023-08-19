@@ -32,6 +32,7 @@ W="\033[0;1m"   # White
 R="\033[31;1m"  # Red
 C="\033[36;1m"  # Cyan
 M="\033[35;1m"  # Magenta
+AnonSMS="AnonSMS"
 clear;
 while true; do
 echo -e "
@@ -45,7 +46,7 @@ $CC    #    #####  #    #         #     ####   ####  ######
 $YY ###################[›$GG TheDarkRoot $YY‹]###################
 $CC =======================================================
 $CC ┌⊸⟜┬───⊸ [$MM TheDarkRoot Repositories: $CC]
-$CC │  ├─┬─⊸ [$YY›1$YY‹$RR AnonSMS$CC]
+$CC │  ├─┬─⊸ [$YY›1$YY‹$RR$AnonSMS$CC]
 $CC │  │ └─⊸ [$YY »$GG Anonymous SMS sending tool.$CC]
 $CC │  ├─┬─⊸ [$YY›2$YY‹$RR Hasher$CC]
 $CC │  │ └─⊸ [$YY »$GG This is a Hash Cracker.$CC]
