@@ -33,6 +33,15 @@ R="\033[31;1m"  # Red
 C="\033[36;1m"  # Cyan
 M="\033[35;1m"  # Magenta
 clear;
+
+function aio() {
+    echo -e "\n${CC} [$YY*$CC]$GG Running all functions sequentially...\n"
+    for i in {1..7}; do
+        echo -e "\n${YY}»${CC} Running function ${i}..."
+        run_function "$i"
+    done
+}
+
 while true; do
 echo -e "
 $CC #######$YY ##################$CC #######$YY ####################
@@ -75,7 +84,9 @@ $CC      └─⊸ [$YY »$GG Tdr-Tool exit.$CC]\n"
 
 read -p " $(echo -e " ${CC}[${YY}»${CC}]${MM} Program Number: ${YY}")" pn
 
-    if [[ $pn == U || $pn == u ]]; then
+    pn=$(echo "$pn" | tr 'a-z' 'A-Z')
+	
+	if [[ $pn == U || $pn == u ]]; then
 	clear;echo -e "$CC\n [$YY↓$CC]$GG Updating...\n";apt update -y;apt upgrade -y;clear;
 	#Termux Packages Installing
 	echo -e "$CC [$YY*$CC]$GG Packages Installing...";
