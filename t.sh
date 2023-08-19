@@ -32,7 +32,6 @@ W="\033[0;1m"   # White
 R="\033[31;1m"  # Red
 C="\033[36;1m"  # Cyan
 M="\033[35;1m"  # Magenta
-AnonSMS="AnonSMS"
 clear;
 while true; do
 echo -e "
@@ -46,7 +45,7 @@ $CC    #    #####  #    #         #     ####   ####  ######
 $YY ###################[›$GG TheDarkRoot $YY‹]###################
 $CC =======================================================
 $CC ┌⊸⟜┬───⊸ [$MM TheDarkRoot Repositories: $CC]
-$CC │  ├─┬─⊸ [$YY›1$YY‹$RR$AnonSMS$CC]
+$CC │  ├─┬─⊸ [$YY›1$YY‹$RR AnonSMS$CC]
 $CC │  │ └─⊸ [$YY »$GG Anonymous SMS sending tool.$CC]
 $CC │  ├─┬─⊸ [$YY›2$YY‹$RR Hasher$CC]
 $CC │  │ └─⊸ [$YY »$GG This is a Hash Cracker.$CC]
@@ -90,26 +89,19 @@ read -p " $(echo -e " ${CC}[${YY}»${CC}]${MM} Program Number: ${YY}")" pn
 
 	elif [[ $pn == P || $pn == p ]]; then
 	echo -e "\n$CC [$YY*$CC]$GG Updating Parrot OS theme...\n$CC [\033[33;1mi$CC]$GG Parrot OS theme for Termux.";
-	( cd ~/Tdr-Tool;curl https://raw.githubusercontent.com/TheDarkRoot/ParrotOS-T/master/ParrotOS-T.sh -o ParrotOS-T.sh;chmod +x ParrotOS-T.sh;bash ParrotOS-T.sh; ) &> /dev/null & spin;
-	cd ~/Tdr-Tool
-	rm -rf ParrotOS-T.sh
+	( cd ~/Tdr-Tool;curl https://raw.githubusercontent.com/TheDarkRoot/ParrotOS-T/master/ParrotOS-T.sh -o ParrotOS-T.sh;chmod +x ParrotOS-T.sh;bash ParrotOS-T.sh;cd ~/Tdr-Tool;rm -rf ParrotOS-T.sh; ) &> /dev/null & spin;
 
 	elif [[ $pn == T || $pn == t ]]; then
     echo -e "\n$CC [$YY*$CC]$GG Updating TheDarkRoot theme...\n$CC [\033[33;1mi$CC]$GG TheDarkRoot theme for Termux.";
-	( cd ~/Tdr-Tool;curl https://raw.githubusercontent.com/TheDarkRoot/TheDarkRoot-T/master/TheDarkRoot-T.sh -o TheDarkRoot-T.sh;chmod +x TheDarkRoot-T.sh;bash TheDarkRoot-T.sh; ) &> /dev/null & spin;
-	cd ~/Tdr-Tool
-	rm -rf TheDarkRoot-T.sh
+	( cd ~/Tdr-Tool;curl https://raw.githubusercontent.com/TheDarkRoot/TheDarkRoot-T/master/TheDarkRoot-T.sh -o TheDarkRoot-T.sh;chmod +x TheDarkRoot-T.sh;bash TheDarkRoot-T.sh;cd ~/Tdr-Tool;rm -rf TheDarkRoot-T.sh; ) &> /dev/null & spin;
 
 	elif [[ $pn == K || $pn == k ]]; then
     echo -e "\n$CC [$YY*$CC]$GG Updating Termux key...\n$CC [\033[33;1mi$CC]$GG Utility to add direction keys to Termux.";
-	( cd ~/Tdr-Tool;curl https://raw.githubusercontent.com/TheDarkRoot/Terkey/master/Terkey.sh -o Terkey.sh;chmod +x Terkey.sh;bash Terkey.sh; ) &> /dev/null & spin;
-	cd ~/Tdr-Tool
-	rm -rf Terkey.sh
+	( cd ~/Tdr-Tool;curl https://raw.githubusercontent.com/TheDarkRoot/Terkey/master/Terkey.sh -o Terkey.sh;chmod +x Terkey.sh;bash Terkey.sh;cd ~/Tdr-Tool;rm -rf Terkey.sh; ) &> /dev/null & spin;
 
 	elif [[ $pn == BASH || $pn == bash ]]; then
     echo -e "\n$CC [$YY*$CC]$GG Tdr-Tool Updating...\n$CC [\033[33;1mi$CC]$GG Utility to add direction keys to Termux.";
 	( cd ~/Tdr-Tool/;rm -rf Tdr-Tool.sh;curl https://raw.githubusercontent.com/TheDarkRoot/Tdr-Tool/master/Tdr-Tool.sh -o Tdr-Tool.sh; ) &> /dev/null & spin;
-	cd ~/Tdr-Tool
 
 	elif [[ $pn == Q || $pn == q ]]; then
     echo -e "\n $CC [$YY»$CC]$RR Good bye...";
@@ -118,43 +110,34 @@ read -p " $(echo -e " ${CC}[${YY}»${CC}]${MM} Program Number: ${YY}")" pn
 	elif [[ $pn == 1 || $pn == 01 ]]; then
     echo -e "\n$CC [$YY*$CC]$GG Downloading AnonSMS...\n$CC [\033[33;1mi$CC]$GG TheDarkRoot tool pack.";
 	( cd ~/Tdr-Tool;rm -rf AnonSMS;git clone https://github.com/TheDarkRoot/AnonSMS.git;cd AnonSMS;chmod +x *; ) &> /dev/null & spin;
-	cd ~/Tdr-Tool
 
 	elif [[ $pn == 2 || $pn == 02 ]]; then
     echo -e "\n$CC [$YY*$CC]$GG Downloading Hasher...\n$CC [\033[33;1mi$CC]$GG This is a Hash Cracker.";
 	( cd ~/Tdr-Tool;rm -rf Hasher;git clone https://github.com/TheDarkRoot/Hasher.git;cd Hasher;chmod +x *; ) &> /dev/null & spin;
-	cd ~/Tdr-Tool
 
 	elif [[ $pn == 3 || $pn == 03 ]]; then
     echo -e "\n$CC [$YY*$CC]$GG Downloading Hashgen...\n$CC [\033[33;1mi$CC]$GG Generate more 39 type hash.";
 	( cd ~/Tdr-Tool;rm -rf Hashgen;git clone https://github.com/TheDarkRoot/Hashgen.git;cd Hashgen;chmod +x *; ) &> /dev/null & spin;
-	cd ~/Tdr-Tool
 
 	elif [[ $pn == 4 || $pn == 04 ]]; then
     echo -e "\n$CC [$YY*$CC]$GG Downloading Terpack...\n$CC [\033[33;1mi$CC]$GG TheDarkRoot termux package installer.";
 	( cd ~/Tdr-Tool;rm -rf Terpack;git clone https://github.com/TheDarkRoot/Terpack.git;cd Terpack;chmod +x *;cp Terpack.sh ~; ) &> /dev/null & spin;
-	cd ~/Tdr-Tool
 		
 	elif [[ $pn == 5 || $pn == 05 ]]; then
     echo -e "\n$CC [$YY*$CC]$GG Downloading Tertest...\n$CC [\033[33;1mi$CC]$GG Termux internet speed test.";
 	( cd ~/Tdr-Tool;rm -rf Tertest;git clone https://github.com/TheDarkRoot/Tertest.git;cd Tertest;chmod +x *; ) &> /dev/null & spin;
-	cd ~/Tdr-Tool
-    bash Tdr-Tool.sh
 
 	elif [[ $pn == 6 || $pn == 06 ]]; then
     echo -e "\n$CC [$YY*$CC]$GG Downloading Tertext...\n$CC [\033[33;1mi$CC]$GG Program for creating words from letters.";
 	( cd ~/Tdr-Tool;rm -rf Tertext;git clone https://github.com/TheDarkRoot/Tertext.git;cd Tertext;chmod +x *; ) &> /dev/null & spin;
-	cd ~/Tdr-Tool
 
 	elif [[ $pn == 7 || $pn == 07 ]]; then
     echo -e "\n$CC [$YY*$CC]$GG Downloading UserID...\n$CC [\033[33;1mi$CC]$GG Search usernames on social media.";
 	( cd ~/Tdr-Tool;rm -rf UserID;git clone https://github.com/TheDarkRoot/UserID.git;cd UserID;chmod +x *; ) &> /dev/null & spin;
-	cd ~/Tdr-Tool
 
 	else
 	echo -e "\n  ${YY}[${RR}⦸${YY}]${RR} Invalid Action."	
 	sleep 1
-	clear;cd ~/Tdr-Tool;bash Tdr-Tool.sh
 	
     fi
 done
