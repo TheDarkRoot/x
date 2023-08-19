@@ -34,14 +34,6 @@ C="\033[36;1m"  # Cyan
 M="\033[35;1m"  # Magenta
 clear;
 
-function aio() {
-    echo -e "\n${CC} [$YY*$CC]$GG Running all functions sequentially...\n"
-    for i in {1..7}; do
-        echo -e "\n${YY}»${CC} Running function ${i}..."
-        run_function "$i"
-    done
-}
-
 while true; do
 echo -e "
 $CC #######$YY ##################$CC #######$YY ####################
