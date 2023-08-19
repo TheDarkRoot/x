@@ -79,10 +79,8 @@ read -p " $(echo -e " ${CC}[${YY}»${CC}]${MM} Program Number: ${YY}")" pn
     pn=$(echo "$pn" | tr 'a-z' 'A-Z')
 
     if [[ $pn == AIO || $pn == aio ]]; then
-        echo -e "\n$CC [$YY*$CC]$GG AIO Downloading...\n$CC [\033[33;1mi$CC]$GG Downloading all of the codes."
-        for i in {1..7}; do
-        done
-        sleep 5
+    echo -e "\n$CC [$YY*$CC]$GG AIO Downloading...\n$CC [\033[33;1mi$CC]$GG Downloading all of the codes."
+    for i in {1..7}; do
 	
 	elif [[ $pn == U || $pn == u ]]; then
 	clear;echo -e "$CC\n [$YY↓$CC]$GG Updating...\n";apt update -y;apt upgrade -y;clear;
