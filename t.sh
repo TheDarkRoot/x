@@ -44,12 +44,10 @@ $CC    #    #    # #####          #    #    # #    # #
 $CC    #    #    # #   #          #    #    # #    # #
 $CC    #    #####  #    #         #     ####   ####  ######
 $YY ###################[›$GG TheDarkRoot $YY‹]###################
-$GG ╔════════════════════════᚛$WW ¡ $GG᚜════════════════════════╗
+$GG ╔═════════════════════════$WW ¡ $GG═════════════════════════╗
 $GG ║$YY [$CC»$YY]$WW Name     $CC:$WW Terpack$GG                              ║
 $GG ║$YY [$CC»$YY]$WW Code     $CC:$WW Shell$GG                                ║
 $GG ║$YY [$CC»$YY]$WW Version  $CC:$WW v1.2.7 (Alpha)$GG                       ║
-$GG ║$YY [$CC»$YY]$WW Author   $CC:$WW TheDarkRoot$GG                          ║
-$GG ║$YY [$CC»$YY]$WW Telegram $CC:$WW @TheDarkRoot$GG                         ║
 $GG ╚═════════════════════════════════════════════════════╝
 
 $CC ┌⊸⟜┬───⊸ [$MM TheDarkRoot Repositories: $CC]
