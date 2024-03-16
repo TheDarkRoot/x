@@ -33,33 +33,20 @@ def hashgen():
     print("=" * 20)
     print("Metin Hashleme (Hashgen)")
     print("=" * 20)
-    print("1. MD5")
-    print("2. SHA-1")
-    print("3. SHA-256")
-    print("4. Algoritma Listesi")
-    print("5. Geri Dön")
+
+    # Tüm algoritmaların listesi
+    algorithms = hashlib.algorithms_available
+
+    # Algoritma listesi ve seçim menüsü
+    print("Mevcut Hash Algoritmaları:")
     print("=" * 20)
+    for algo in algorithms:
+        print(f"- {algo}")
+    print("=" * 20)
+    algorithm = input("Kullanmak istediğiniz algoritmayı seçiniz: ").lower()
+    while algorithm not in algorithms:
+        algorithm = input("Geçersiz algoritma. Lütfen tekrar deneyin: ").lower()
 
-    choice = input("Seçiminizi giriniz (1, 2, 3, 4 veya 5): ")
-
-    while choice not in ("1", "2", "3", "4", "5"):
-        choice = input("Geçersiz seçim. Lütfen tekrar deneyin (1, 2, 3, 4 veya 5): ")
-
-    if choice == "1":
-        algorithm = "md5"
-        hash_text(algorithm)
-    elif choice == "2":
-        algorithm = "sha1"
-        hash_text(algorithm)
-    elif choice == "3":
-        algorithm = "sha256"
-        hash_text(algorithm)
-    elif choice == "4":
-        list_algorithms()
-    else:
-        main()
-
-def hash_text(algorithm):
     # Metin girişi
     text = input("Metni giriniz: ")
 
@@ -78,27 +65,21 @@ def hash_text(algorithm):
 
     input("Devam etmek için Enter'a basın...")
 
-def list_algorithms():
+def hasher():
+    # Dosya yolu yerine Wordlist.txt dosyası kullanımı
+    file_path = "Wordlist.txt"
+
     # Tüm algoritmaların listesi
     algorithms = hashlib.algorithms_available
-    clear_screen()
+
+    # Kullanıcıdan algoritma seçimi
     print("=" * 20)
     print("Mevcut Hash Algoritmaları")
     print("=" * 20)
     for algo in algorithms:
         print(f"- {algo}")
     print("=" * 20)
-    input("Devam etmek için Enter'a basın...")
-
-def hasher():
-    # Dosya yolu yerine Wordlist.txt dosyası kullanımı
-    file_path = "Wordlist.txt"
-
-    # Hash algoritması seçimi
-    algorithms = {"md5": "MD5", "sha1": "SHA-1", "sha256": "SHA-256"}
-    for algo, name in algorithms.items():
-        print(f"{algo}: {name}")
-    algorithm = input("Hash algoritmasını seçiniz: ").lower()
+    algorithm = input("Kullanmak istediğiniz algoritmayı seçiniz: ").lower()
     while algorithm not in algorithms:
         algorithm = input("Geçersiz algoritma. Lütfen tekrar deneyin: ").lower()
 
