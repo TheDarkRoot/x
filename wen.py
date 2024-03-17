@@ -1,68 +1,53 @@
-import sys
-from speedtest import Speedtest
-from termcolor import colored
+#!/bin/bash
+# -*- coding: utf-8 -*-
 
-# Renkleri platforma göre ayarla
-if sys.platform == "linux" or sys.platform == "linux2":
-    BB = "\033[34;1m"  # Blue Light
-    YY = "\033[33;1m"  # Yellow Light
-    GG = "\033[32;1m"  # Green Light
-    WW = "\033[0;1m"   # White Light
-    RR = "\033[31;1m"  # Red Light
-    CC = "\033[36;1m"  # Cyan Light
-    MM = "\033[35;1m"  # Magenta Light
-else:
-    # Renkleri Windows veya diğer platformlara uyarla
-    BB = "Mavi"
-    YY = "Sarı"
-    GG = "Yeşil"
-    WW = "Beyaz"
-    RR = "Kırmızı"
-    CC = "Camgöbeği"
-    MM = "Eflatun"
+# Döndürme İşlevi
+function spin() {
+  local pid=<span class="math-inline">\!
+local delay\=0\.10
+local spinner\=\( '\\033\[34;1m■■■■■■■' '\\033\[32;1m█\\033\[33;1m■■■■■■' '\\033\[33;1m■\\033\[32;1m█\\033\[33;1m■■■■■' '\\033\[33;1m■■\\033\[32;1m█\\033\[33;1m■■■■' '\\033\[33;1m■■■\\033\[32;1m█\\033\[33;1m■■■' '\\033\[33;1m■■■■\\033\[32;1m█\\033\[33;1m■■' '\\033\[33;1m■■■■■\\033\[32;1m█\\033\[33;1m■' '\\033\[33;1m■■■■■■\\033\[32;1m█' '\\033\[34;1m■■■■■■■' '\\033\[33;1m■■■■■■\\033\[32;1m█' '\\033\[33;1m■■■■■\\033\[32;1m█\\033\[33;1m■' '\\033\[33;1m■■■■\\033\[32;1m█\\033\[33;1m■■' '\\033\[33;1m■■■\\033\[32;1m█\\033\[33;1m■■■' '\\033\[33;1m■■\\033\[32;1m█\\033\[33;1m■■■■' '\\033\[33;1m■\\033\[32;1m█\\033\[33;1m■■■■■' '\\033\[32;1m█\\033\[33;1m■■■■■■' \)
+while \[ "</span>(ps a | awk '{print $1}' | grep <span class="math-inline">pid\)" \]; do
+for i in "</span>{spinner[@]}"
+    do
+      echo -ne "\r$CC [$YY↓$CC]$GG Downloading please wait...$CC 【$i$CC】";
+      sleep $delay
+      printf "\b\b\b\b\b\b\b\b";
+    done
+  done
+  printf "  \b\b\b\b\b"
+  printf "$WW⟫$GG Completed.\n";
+  echo "";
+}
 
-# Tertest giriş başlığı
-print(colored(f"\n{BB} #######{YY} ##################{BB} #######{YY} ####################", WW))
-# ... (Başlık metninin geri kalanını buraya ekleyin)
+# Renk Kodları
+BB="\033[34;1m" # Mavi Açık
+YY="\033[33;1m" # Sarı Açık
+GG="\033[32;1m" # Yeşil Açık
+WW="\033[0;1m"  # Beyaz Açık
+RR="\033[31;1m" # Kırmızı Açık
+CC="\033[36;1m" # Turkuaz Açık
+MM="\033[35;1m" # Pembe Açık
+B="\033[34;1m" # Mavi
+Y="\033[33;1m" # Sarı
+G="\033[32;1m" # Yeşil
+W="\033[0;1m"  # Beyaz
+R="\033[31;1m" # Kırmızı
+C="\033[36;1m" # Turkuaz
+M="\033[35;1m" # Pembe
 
-def print_speed(speed, unit):
-    if unit == 'Mbps':
-        if speed >= 50:
-            color = GG
-        elif speed >= 20:
-            color = YY
-        else:
-            color = RR
-    else:
-        color = WW
+# Kütüphanelerin Kurulum Kontrolü
+function install_library() {
+  library_name="$1"
+  package_manager="$2"
 
-    print(colored(f"{speed:.2f} {unit}", color))
+  echo "Installing $library_name..."
 
-def run_speed_test():
-    print(colored("Bağlantı hızı testi başlıyor...", BB))
-    print()
+  $package_manager install --upgrade "$library_name" --check-deps || {
+    echo "Error installing $library_name"
+    exit 1
+  }
 
-    try:
-        st = Speedtest()
-        st.get_best_server()
+  echo "$library_name installed successfully"
+}
 
-        print(colored("İndirme:", CC))
-        download_speed = st.download() / 10 ** 6  # Mbps'ye dönüştür
-        print_speed(download_speed, 'Mbps')
-
-        print(colored("\nYükleme:", CC))
-        upload_speed = st.upload() / 10 ** 6  # Mbps'ye dönüştür
-        print_speed(upload_speed, 'Mbps')
-
-        print(colored("\nPing:", CC))
-        ping = st.results.ping
-        print_speed(ping, 'ms')
-
-        print()
-        print(colored("Bağlantı hızı testi tamamlandı.\n", GG))
-
-    except speedtest.SpeedtestException:
-        print(colored("Hız testi sırasında bir hata oluştu\n", RR))
-
-if __name__ == "__main__":
-    run_speed_test()
+# Termux Paket
